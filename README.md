@@ -28,6 +28,10 @@ For greatest ease of use, simply visit [this website](http://lukebertram.github.
 
 Everything is at least slightly wrong. It pains me.
 
+The nav bar is all messed up, and I spent way too much time messing with it before I realized it was not part of the assignment. So I left what functionality was already there with the intent to come back to it later if I had enough time. I did not have enough time. I need to add the logo and override Materialize's styling to prevent the mobile menu from being absolutely positioned over the logo placeholder. Also, I need to replace the placeholder with the actual logo.
+
+The margins of elements in the "Latest Trends and Stories" section are all messed up. I have so far not been able to reconcile my desired margins for these elements with the behavior of Materialize's grid system.
+
 ## Support and contact details
 
 Flag me down in class, or send me a tweetbook on facestagram if you have any troubles.

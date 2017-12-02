@@ -75,6 +75,9 @@ h1{
   min-height: 300px;
   font-size: 1.2em;
   font-weight: 300;
+  background-color: #fff;
+  margin: 10px 0;
+  box-shadow: 1px 2px 3px #00000022;
 }
 .card-image {
   height: 90px;
@@ -86,11 +89,7 @@ h1{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.card-image img {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
+
 p.case-study {
   padding-bottom: 2px;
 }
@@ -124,6 +123,7 @@ p.case-study {
     background-size: cover;
   }
   .image-card-story{
-    height: 380px
+    height: 380px;
+    margin-bottom: 20px;
   }
 }
