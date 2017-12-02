@@ -71,10 +71,17 @@ h1{
   background-image: url("../img/holiday.jpg");
 }
 
+.image-card-story {
+  min-height: 300px;
+  font-size: 1.2em;
+  font-weight: 300;
+}
 .card-image {
+  height: 90px;
   width: 20vw;
-  min-width: 75px;
+  min-width: 90px;
   float: left;
+  margin-right: 10px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,6 +99,7 @@ p.case-study {
 @media screen and (min-width: 600px){
   .image-card-story{
     height: 380px;
+    text-align: center;
   }
   .card-image {
     float: none;
