@@ -55,13 +55,29 @@ h1{
 #tablet-people{
   background-image: url("../img/tablet-people.jpg");
 }
+#quarterman .card-image{
+  background-image: url("../img/quarterman.jpg");
+}
+#nestle .card-image{
+  background-image: url("../img/nestle.jpg");
+}
+#audience .card-image{
+  background-image: url("../img/audience.jpg");
+}
+#shopping-cart .card-image{
+  background-image: url("../img/shopping-cart.jpg");
+}
 #holiday{
   background-image: url("../img/holiday.jpg");
 }
+
 .card-image {
   width: 20vw;
   min-width: 75px;
   float: left;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-image img {
   width: 100%;
@@ -74,15 +90,24 @@ p.case-study {
 
 /* medium screen size */
 @media screen and (min-width: 600px){
+  .image-card-story{
+    height: 380px;
+  }
   .card-image {
     float: none;
     width: 100%;
+    height: 45%;
   }
 }
 
 /* large screen and up */
 @media screen and (min-width: 1000px){
+  .header-nav-wrapper{
+    width: 100%;
+    background-color: #fff;
+  }
   .headline{
+    margin: auto;
     max-width: 1400px;
     height: 380px;
     background-image: url("../img/big-hero.jpg");
