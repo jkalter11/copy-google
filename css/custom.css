@@ -72,9 +72,25 @@ p.case-study {
   padding-bottom: 2px;
 }
 
+/* medium screen size */
 @media screen and (min-width: 600px){
   .card-image {
     float: none;
     width: 100%;
+  }
+}
+
+/* large screen and up */
+@media screen and (min-width: 1000px){
+  .headline{
+    max-width: 1400px;
+    height: 380px;
+    background-image: url("../img/big-hero.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-card-story{
+    height: 380px
   }
 }
