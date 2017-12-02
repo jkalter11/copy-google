@@ -5,29 +5,84 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link rel="stylesheet" href="css/custom.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Data & Measurement</a></li>
-        <li><a href="#">Experience & Design</a></li>
-        <li><a href="#">Omnichannel</a></li>
-        <li><a href="#">Programmatic Advertising</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-menu">
-        <li><a href="#">Data & Measurement</a></li>
-        <li><a href="#">Experience & Design</a></li>
-        <li><a href="#">Omnichannel</a></li>
-        <li><a href="#">Programmatic Advertising</a></li>
-      </ul>
+    <nav class="transparent">
+      <div class="nav-wrapper">
+        <ul class="left">
+          <li>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons grey-text">menu</i></a>
+          </li>
+          <li><a href="#" class="brand-logo left grey-text">Logo</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Consumer Insights</a></li>
+          <li><a href="#">Marketing Resources</a></li>
+          <li><a href="#">Advertising Channels</a></li>
+        </ul>
+        <i class="material-icons right grey-text">search</i>
+        <ul class="side-nav" id="mobile-menu">
+          <li><a href="#">Consumer Insights</a></li>
+          <div class="divider"></div>
+          <li><a href="#">Data & Measurement</a></li>
+          <li><a href="#">Experience & Design</a></li>
+          <li><a href="#">Omnichannel</a></li>
+          <li><a href="#">Programmatic Advertising</a></li>
+          <div class="divider"></div>
+          <li><a href="#">Reports</a></li>
+          <li><a href="#">Tools</a></li>
+          <div class="divider"></div>
+          <li><a href="#">Engaging Technology</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Video</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HEADER or HEROish SECTION -->
+    <div class="row">
+      <div class="headline col s12">
+        <h1 class="grey-text text-darken-2">Insights you want.<br/>Data you need.</h1>
+      </div>
     </div>
 
+    <!-- STORIES -->
+    <div class="stories container">
+      <h3 class="hide-on-small-only">Latest trends and stories</h3>
+      <div class="row">
+        <div class="full-image-story col s12 hover" id="tablet-people">
+          <p class="article-headline white-text">
+            Holiday shoppers are in the driver's seat now--here's what they're crashing into
+          </p>
+          <p class="article-info white-text">
+            Article - Nov 2017
+          </p>
+        </div>
+        <div class="image-card-story col s12">
+        </div>
+        <div class="image-card-story col s12">
+        </div>
+        <div class="image-card-story col s12">
+        </div>
+        <div class="image-card-story col s12">
+        </div>
+        <div class="full-image-story col s12">
+        </div>
+      </div>
+    </div>
+
+    <!-- DEEP DIVE -->
 
 
+
+    <!-- MARKETER TOOLS -->
+
+
+    <!-- FOOTER -->
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
